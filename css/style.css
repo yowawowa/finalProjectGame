@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #dce1de;
+}
+body header {
+  background: white;
+  padding: 20px;
+}
+body header h1 {
+  color: #2a3d45;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.scoreboard {
+  margin: 20px auto;
+  padding: 15px 20px;
+  border: 3px solid #37000a;
+  width: 200px;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 4px;
+  font-family: "Comfortaa", sans-serif;
+  position: relative;
+}
+.scoreboard .badge {
+  color: #dce1de;
+  padding: 2px 10px;
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+}
+.scoreboard #user-badge {
+  background: #5B8263;
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+.scoreboard #comp-badge {
+  background: #c17c74;
+  position: absolute;
+  top: 30px;
+  right: -25px;
+}
+
+.result {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
+  color: #2a3d45;
+}
+.result .result-phrase {
+  text-align: center;
+}
+.result p {
+  text-align: center;
+}
+
+img {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-width: 200px;
+}
+
+.choices {
+  margin: 50px 0 20px 0;
+  text-align: center;
+}
+.choices .choice {
+  margin: 0 20px;
+  padding: 10px;
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.choices .choice:hover {
+  background: #efefd0;
+  cursor: pointer;
+}
+
+#call {
+  text-align: center;
+  color: #2a3d45;
+  font-size: 30.7692307692px;
+  font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.green-glow {
+  border-radius: 15%;
+  border: 5px solid #8cd867;
+  -webkit-box-shadow: 0 0 50px #6dce3e;
+          box-shadow: 0 0 50px #6dce3e;
+}
+
+.red-glow {
+  border-radius: 15%;
+  border: 5px solid #6f1d1b;
+  -webkit-box-shadow: 0 0 50px #461211;
+          box-shadow: 0 0 50px #461211;
+}
+
+.grey-glow {
+  border: 5px solid #464655;
+  -webkit-box-shadow: 0 0 50px #2f2f39;
+          box-shadow: 0 0 50px #2f2f39;
+}
+
+.default-glow {
+  border: 5px solid #37000a;
+  border-radius: 15%;
+}
